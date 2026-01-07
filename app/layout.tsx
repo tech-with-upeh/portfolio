@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Smooch_Sans, SUSE } from "next/font/google";
+import { SUSE } from "next/font/google";
 import "./globals.css";
 
 // const smooch = Smooch_Sans({
