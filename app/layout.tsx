@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import { Smooch_Sans, SUSE } from "next/font/google";
 import "./globals.css";
 
-const smooch = Smooch_Sans({
-  variable: "--font-smooch-sans",
-  subsets: ["latin"],
-});
+// const smooch = Smooch_Sans({
+//   variable: "--font-smooch-sans",
+//   subsets: ["latin"],
+// });
 
 const suse = SUSE({
   variable: "--font-SUSE-mono",

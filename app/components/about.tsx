@@ -69,7 +69,7 @@ const About = () => {
               <Quotes size={48} weight="fill" className="absolute -top-4 -right-4 text-white/5" />
               
               <p className="text-gray-300 text-lg leading-relaxed font-light">
-                Hi, I'm <span className="text-white font-semibold">Upeh (known as UTECHIT)</span>, a full-stack engineer driven by the intersection of high-end design and robust architecture. I don't just write code; I craft digital ecosystems that prioritize performance, accessibility, and sheer visual delight.
+                Hi, I&apos;m <span className="text-white font-semibold">Upeh (known as UTECHIT)</span>, a full-stack engineer driven by the intersection of high-end design and robust architecture. I don&apos;t just write code; I craft digital ecosystems that prioritize performance, accessibility, and sheer visual delight.
               </p>
               
               <p className="text-gray-400 leading-relaxed">
