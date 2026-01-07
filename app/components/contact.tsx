@@ -2,8 +2,7 @@
 import React from "react";
 import { 
   EnvelopeSimple, 
-  MapPin, 
-  Phone, 
+  MapPin,
   LinkedinLogo, 
   TwitterLogo, 
   InstagramLogo, 
@@ -29,10 +28,10 @@ const Contact = () => {
                 <span className="text-xs font-mono uppercase tracking-widest text-gray-400">Get in Touch</span>
               </div>
               <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-white mb-6">
-                Let's Build Something <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-500 to-teal-500">Exceptional</span> Together
+                Let&apos;s Build Something <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-500 to-teal-500">Exceptional</span> Together
               </h2>
               <p className="text-gray-400 text-lg leading-relaxed">
-                Have a project in mind or just want to say hi? Feel free to reach out. I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+                Have a project in mind or just want to say hi? Feel free to reach out. I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
               </p>
             </div>
 

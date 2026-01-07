@@ -20,7 +20,7 @@ const Hero = () => {
             <span className="relative inline-flex rounded-full h-2 w-2 bg-purple-500"></span>
           </span>
           <p className="text-gray-500 font-mono text-sm tracking-widest">
-            HEY, I'M <span className="text-white">UTECHIT</span> 👋
+            HEY, I&apos;M <span className="text-white">UTECHIT</span> 👋
           </p>
         </div>
 

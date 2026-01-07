@@ -21,10 +21,7 @@ const About = () => {
           {/* Left Side: Avatar/Image - Grid 5 */}
           <div className="lg:col-span-5 relative group">
             <div className="relative z-10 rounded-3xl overflow-hidden border border-white/10 aspect-[4/4] bg-white/5">
-              <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop" 
-                alt="Upeh - Portfolio Owner" 
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop" alt="Upeh - Portfolio Owner" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-transparent to-transparent opacity-60" />
             </div>
@@ -76,7 +73,7 @@ const About = () => {
               </p>
               
               <p className="text-gray-400 leading-relaxed">
-                My journey started with a fascination for how technology can empower individuals. Today, I build everything from decentralized finance dashboards to sophisticated creator platforms, always focusing on the tiny details that separate the "good" from the "extraordinary."
+                My journey started with a fascination for how technology can empower individuals. Today, I build everything from decentralized finance dashboards to sophisticated creator platforms, always focusing on the tiny details that separate the &apos;good&apos; from the &apos;extraordinary&apos;.
               </p>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4">
