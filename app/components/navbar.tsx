@@ -3,7 +3,6 @@ import {
   AppWindowIcon,
   UserRectangleIcon,
   InfoIcon,
-  ArrowUpRightIcon,
   Lightning,
 } from "@phosphor-icons/react";
 import { useRef, useState } from "react";

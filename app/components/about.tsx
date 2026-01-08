@@ -1,12 +1,7 @@
 "use client";
 import React from "react";
 import { 
-  UserCircle, 
-  Quotes, 
-  MapPin, 
-  Coffee, 
-  GraduationCap, 
-  Briefcase 
+  UserCircle
 } from "@phosphor-icons/react";
 
 const About = () => {
