@@ -5,7 +5,6 @@ import {
   InfoIcon,
   Lightning,
 } from "@phosphor-icons/react";
-import { useRef, useState } from "react";
 
 const NAV_ITEMS = [
   { id: 1, label: "Projects", sub: "See all my projects", icon: AppWindowIcon, href: "#projects" },
