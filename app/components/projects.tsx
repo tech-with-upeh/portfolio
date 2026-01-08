@@ -1,10 +1,9 @@
 "use client";
 import React from "react";
+
 import { 
   GithubLogo, 
-  Globe, 
-  ArrowUpRight, 
-  RocketLaunch, 
+  ArrowUpRight,
   FolderSimple 
 } from "@phosphor-icons/react";
 

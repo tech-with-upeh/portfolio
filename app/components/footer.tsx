@@ -1,14 +1,5 @@
 "use client";
 import React from "react";
-import { 
-  ArrowUp, 
-  Copyright, 
-  Heart,
-  GithubLogo,
-  LinkedinLogo,
-  TwitterLogo
-} from "@phosphor-icons/react";
-
 const Footer = () => {
   return (
     <footer className="relative py-32 px-6 md:px-12 bg-[#050505] border-t border-white/5">

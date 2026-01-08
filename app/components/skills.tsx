@@ -2,14 +2,9 @@
 import React from "react";
 import {  
   Code, 
-  Database, 
-  FigmaLogo, 
-  Globe, 
   Layout, 
   Lightning, 
-  Palette, 
-  Rocket, 
-  TerminalWindow 
+  Palette
 } from "@phosphor-icons/react";
 
 const skillCategories = [

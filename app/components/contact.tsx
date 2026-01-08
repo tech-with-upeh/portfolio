@@ -1,8 +1,6 @@
 "use client";
 import React from "react";
 import { 
-  EnvelopeSimple, 
-  MapPin,
   LinkedinLogo, 
   TwitterLogo, 
   InstagramLogo, 
