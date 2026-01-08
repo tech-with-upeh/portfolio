@@ -4,7 +4,8 @@
 @tailwind utilities;
 
 @theme {
-  --font-susemono: "SUSE Mono", sans-serif;
+  --font-inter: var(--font-inter);
+  --font-suse: var(--font-suse);
 }
 
 :root {
@@ -20,5 +21,6 @@
 }
 
 body {
-  font-family: "SUSE";
+  font-family: var(--font-inter), sans-serif;
+  background-color: #050505;
 }

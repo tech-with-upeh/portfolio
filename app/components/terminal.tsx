@@ -85,42 +85,36 @@ const Terminal = () => {
 
   return (
     <div className="z-10 mt-16 lg:mt-0 w-full lg:w-[45%] flex justify-center items-start">
-      <div className="w-full h-[450px] lg:h-[480px] rounded-2xl border border-white/10 bg-black/80 backdrop-blur-2xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] overflow-hidden flex flex-col font-mono text-xs sm:text-sm">
+      <div className="w-full h-[450px] lg:h-[480px] border border-white/10 bg-black shadow-2xl overflow-hidden flex flex-col font-mono text-xs sm:text-sm">
         {/* Terminal Header */}
-        <div className="flex items-center gap-2 px-4 py-3 bg-white/5 border-b border-white/5">
-          <div className="flex gap-1.5">
-            <div className="w-3 h-3 rounded-full bg-[#ff5f56] shadow-inner" />
-            <div className="w-3 h-3 rounded-full bg-[#ffbd2e] shadow-inner" />
-            <div className="w-3 h-3 rounded-full bg-[#27c93f] shadow-inner" />
+        <div className="flex items-center gap-2 px-4 py-3 border-b border-white/5 bg-white/[0.02]">
+          <div className="flex gap-1.5 opacity-20">
+            <div className="w-2.5 h-2.5 rounded-full bg-white" />
+            <div className="w-2.5 h-2.5 rounded-full bg-white" />
+            <div className="w-2.5 h-2.5 rounded-full bg-white" />
           </div>
-          <span className="ml-4 text-gray-500 text-[10px] tracking-[0.2em] uppercase opacity-60">
-            zsh — upe@macbook
+          <span className="ml-4 text-gray-600 text-[10px] tracking-[0.2em] uppercase">
+            zsh — session
           </span>
         </div>
 
         {/* Terminal Body */}
         <div 
           ref={terminalBodyRef}
-          className="p-6 flex-1 overflow-y-auto space-y-4 custom-scrollbar"
+          className="p-8 flex-1 overflow-y-auto space-y-6 custom-scrollbar"
         >
-          {/* Welcome Message (Persistent) */}
-          <div className="text-gray-500 mb-6">
-            Last login: {new Date().toLocaleDateString()} on ttys001
-          </div>
-
           {/* History */}
           {history.map((item, i) => (
-            <div key={i} className="space-y-2">
-              <div className="flex gap-2">
-                <span className="text-purple-400 font-bold">➜</span>
-                <span className="text-cyan-400">~</span>
+            <div key={i} className="space-y-3">
+              <div className="flex gap-3">
+                <span className="text-white font-black opacity-20">/</span>
                 <span className="text-white font-medium">{item.cmd}</span>
               </div>
-              <div className={`ml-6 ${item.cmd === "ls skills" ? "flex flex-wrap gap-x-8 gap-y-1" : "space-y-1"}`}>
+              <div className={`ml-6 ${item.cmd === "ls skills" ? "flex flex-wrap gap-x-8 gap-y-1" : "space-y-2"}`}>
                 {item.output?.map((line, j) => (
                   <p
                     key={j}
-                    className={`text-gray-400 leading-relaxed ${item.cmd !== "ls skills" ? "border-l border-white/5 pl-4" : "min-w-[80px]"}`}
+                    className="text-gray-600 leading-relaxed font-light"
                   >
                     {line}
                   </p>
@@ -130,12 +124,11 @@ const Terminal = () => {
           ))}
 
           {/* Current Typing Line */}
-          <div className="flex gap-2">
-            <span className="text-purple-400 font-bold">➜</span>
-            <span className="text-cyan-400">~</span>
+          <div className="flex gap-3">
+            <span className="text-white font-black opacity-20">/</span>
             <span className="text-white">
               {currentText}
-              <span className="inline-block w-2 h-4 bg-purple-500 ml-1 animate-pulse align-middle" />
+              <span className="inline-block w-2 h-4 bg-white/40 ml-1 align-middle" />
             </span>
           </div>
         </div>

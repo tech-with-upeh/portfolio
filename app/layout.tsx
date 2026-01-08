@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
-import { SUSE } from "next/font/google";
+import { SUSE, Inter } from "next/font/google";
 import "./globals.css";
 
-// const smooch = Smooch_Sans({
-//   variable: "--font-smooch-sans",
-//   subsets: ["latin"],
-// });
-
 const suse = SUSE({
-  variable: "--font-SUSE-mono",
+  variable: "--font-suse",
+  subsets: ["latin"],
+});
+
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${suse.variable} h-full antialiased`}>{children}</body>
+      <body className={`${inter.variable} ${suse.variable} font-sans h-full antialiased`}>{children}</body>
     </html>
   );
 }
