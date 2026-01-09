@@ -16,7 +16,7 @@ const NAV_ITEMS = [
     icon: UserRectangleIcon,
     href: "#about",
   },
-  { id: 4, label: "Get in touch", sub: "Contact Us", icon: InfoIcon, href: "#contact" },
+  { id: 4, label: "Get in touch", sub: "Contact Us", icon: InfoIcon, href: "#contact" }
 ];
 
 const Navbar = () => {

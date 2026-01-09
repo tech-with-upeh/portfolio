@@ -9,12 +9,12 @@ import Footer from "./components/footer";
 
 export default function Home() {
   return (
-    <main className="bg-[#050505]">
+    <main className="bg-white dark:bg-[#050505]">
       <Navbar />
       <Hero />
+      <About />
       <Skills />
       <Projects />
-      <About />
       <Contact />
       <Footer />
     </main>

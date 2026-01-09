@@ -22,12 +22,12 @@ const Terminal = () => {
     {
       cmd: "ls skills",
       output: [
-        "React",
+        "C/C++",
         "Next.js",
-        "Tailwind",
+        "React",
         "Node.js",
         "TypeScript",
-        "PostgreSQL",
+        "Python",
         "Figma",
       ],
     },

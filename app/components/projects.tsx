@@ -9,32 +9,69 @@ import {
 
 const projects = [
   {
-    title: "Astra Finance",
-    category: "Crypto Dashboard",
-    description: "A premium, high-fidelity UI design for a crypto finance dashboard with glassmorphism charts and real-time data tracking.",
-    image: "/astra_finance_dashboard.png", // This is the name I gave to the generated image
-    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Recharts"],
-    github: "https://github.com",
-    live: "https://astra-finance.vercel.app"
+    title: "King Homes",
+    category: "Real Estate",
+    description: "A premium, high-fidelity UI design for a Real Estate with glassmorphism and real-time data tracking.",
+    image: "/kinghomes.png", // This is the name I gave to the generated image
+    tech: ["Next.js", "TypeScript", "Nodejs", "Supabase"],
+    github: "https://github.com/tech-with-upeh/kinghomes",
+    live: "https://kinghomes-two.vercel.app/"
   },
   {
-    title: "GreenBank",
-    category: "Fintech Application",
-    description: "A sustainable banking application focusing on emerald green aesthetics and card management systems.",
-    image: "/greenbank_banking_app.png", // This is the name I gave to the generated image
-    tech: ["React Native", "Expo", "Node.js", "PostgreSQL"],
-    github: "https://github.com",
-    live: "https://greenbank.app"
+    title: "EasyGo",
+    category: "Pharmaceutical",
+    description: "A sustainable pharmaceutical application focusing on user experience and ease of use.",
+    image: "/easygo.png", // This is the name I gave to the generated image
+    tech: ["Nextjs", "TypeScript", "Tailwind CSS", "Supabase"],
+    github: "https://github.com/tech-with-upeh/kinghomes",
+    live: "https://easygo-liart.vercel.app/"
   },
   {
-    title: "Nova Social",
-    category: "Creator Platform",
-    description: "A futuristic social media interface for creators, featuring vibrant gradients and artistic profile layouts.",
+    title: "Saturn",
+    category: "Web 3",
+    description: "A crypto platform for buying and selling crypto.",
     image: "https://images.unsplash.com/photo-1614332287897-cdc485fa562d?q=80&w=2070&auto=format&fit=crop", 
-    tech: ["React", "GraphQL", "MongoDB", "Tailwind CSS"],
-    github: "https://github.com",
-    live: "https://nova-social.com"
-  }
+    tech: ["React Native", "NodeJs", "Expo", "Web3 Js"],
+    github: "https://github.com/tech-with-upeh/Saturn",
+    live: "#"
+  },
+  {
+    title: "Helios",
+    category: "Software",
+    description: "A C++ based framework for building cross platform Uis.",
+    image: "https://images.unsplash.com/photo-1614332287897-cdc485fa562d?q=80&w=2070&auto=format&fit=crop", 
+    tech: ["C++", "Web Assembly", "Java", "Swift"],
+    github: "https://github.com/tech-with-upeh/helios",
+    live: "#"
+  },
+   {
+    title: "Extension for Helios",
+    category: "Software",
+    description: "A visual studio code Extension for the helios framework.",
+    image: "https://images.unsplash.com/photo-1614332287897-cdc485fa562d?q=80&w=2070&auto=format&fit=crop", 
+    tech: ["NodeJs", "TypeScript", "Express", "Javascript"],
+    github: "https://github.com/tech-with-upeh/Pyra-vscode-ext",
+    live: "#"
+  },
+   {
+    title: "StoryGram",
+    category: "Chat App",
+    description: "A Chatapp with modern and interactive Ui",
+    image: "/storygram.png", 
+    tech: ["Flutter", "Dart", "Express"],
+    github: "https://github.com/tech-with-upeh/Storygram",
+    live: "#"
+  },
+  {
+    title: "Just Learn",
+    category: "E-Learning",
+    description: "A E-Learning app with modern and interactive Ui",
+    image: "/justlearn.png", 
+    tech: ["Flutter", "Dart", "Express"],
+    github: "https://github.com/tech-with-upeh/JusrLearn",
+    live: "#"
+  },
+
 ];
 
 const Projects = () => {
@@ -51,8 +88,10 @@ const Projects = () => {
               My Projects
             </h2>
             <p className="text-gray-400 text-lg font-light leading-relaxed">
-              Here are some of my recent projects. 
+              Here are some of my recent projects.
             </p>
+            
+             <span className="text-gray-600">Click to Add Color</span> 
           </div>
           
           <a 
@@ -76,7 +115,7 @@ const Projects = () => {
                 <img 
                   src={project.image} 
                   alt={project.title}
-                  className="w-full h-full object-cover grayscale opacity-50 group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-700"
+                  className="w-full h-full object-contain grayscale opacity-50 group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-700"
                 />
               </div>
 

@@ -28,10 +28,10 @@ const Hero = () => {
             </span>
             {/* SOFTWARE Text Block */}
             <div className="flex items-baseline leading-[0.85]">
-              <h1 className="text-5xl md:text-7xl lg:text-8xl font-black font-suse text-white tracking-widest">
+              <h1 className="text-5xl md:text-7xl lg:text-7xl font-black font-suse text-white tracking-widest">
                 SOFT
               </h1>
-              <h1 className="text-5xl md:text-7xl lg:text-8xl font-black font-suse text-transparent style-stroke tracking-widest">
+              <h1 className="text-5xl md:text-7xl lg:text-7xl font-black font-suse text-transparent style-stroke tracking-widest">
                 WARE
               </h1>
             </div>
@@ -39,10 +39,10 @@ const Hero = () => {
 
           {/* DEVELOPER Text Block */}
           <div className="flex items-baseline leading-[0.85] mt-2 md:-mt-4 ml-6 lg:ml-12 select-none">
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-black font-suse text-transparent style-stroke tracking-widest">
+            <h1 className="text-5xl md:text-7xl lg:text-7xl font-black font-suse text-transparent style-stroke tracking-widest">
               DEVE
             </h1>
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-black font-suse text-white tracking-widest">
+            <h1 className="text-5xl md:text-7xl lg:text-7xl font-black font-suse text-white tracking-widest">
               LOPER
             </h1>
           </div>

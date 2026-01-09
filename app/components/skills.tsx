@@ -9,21 +9,21 @@ import {
 
 const skillCategories = [
   {
-    title: "Frontend Development",
+    title: "FullStack Development",
     icon: <Layout size={32} className="text-white/40" />,
-    skills: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion","Express", "PostgreSQL", "SQL"],
+    skills: ["Next.js", "TypeScript", "Tailwind CSS", "React Native","Express", "PostgreSQL", "SQL", "Flutter", "Dart"],
     description: "Building responsive, high-performance web applications with modern frameworks."
   },
   {
-    title: "Software",
+    title: "Software Development",
     icon: <Code size={32} className="text-white/40" />,
-    skills: ["C", "C++", "Python", "Node.js", "Java"],
+    skills: ["C", "C++", "Python", "Node.js", "Java", "Dart"],
     description: "Building Cross Platform Software with Modern Technologies."
   },
   {
     title: "Tools & Design",
     icon: <Palette size={32} className="text-white/40" />,
-    skills: ["Figma", "Git", "GitHub", "Postman", "Vercel"],
+    skills: ["Figma", "Git", "GitHub", "Postman", "Vercel", "Supabase", "CMake", "Make"],
     description: "Crafting beautiful user interfaces and maintaining efficient development workflows."
   }
 ];
